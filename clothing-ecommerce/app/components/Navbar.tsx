@@ -48,7 +48,7 @@ const Navbar = (props: Props) => {
           >
             <img
               src="user.jpg"
-              alt=""
+              alt="userImage"
               className="w-[35px] h-[35px] rounded-full object-cover"
             />
             <div
