@@ -5,7 +5,7 @@ import SearchBar from "./SearchBar";
 import Link from "next/link";
 import { CiShoppingCart } from "react-icons/ci";
 import { BsChevronCompactUp } from "react-icons/bs";
-import {BiSearch} from "react-icons/bi"
+import { BiSearch } from "react-icons/bi";
 
 type Props = {};
 
@@ -47,7 +47,7 @@ const Navbar = (props: Props) => {
             className="relative cursor-pointer"
           >
             <img
-              src="user.jpg"
+              src="https://lh3.googleusercontent.com/-CYQRHQCbHdA/AAAAAAAAAAI/AAAAAAAAAAA/AML38-vMMT_uWejxplmPOAUsaUC8_iQR4g/photo.jpg?sz=46"
               alt="userImage"
               className="w-[35px] h-[35px] rounded-full object-cover"
             />
@@ -63,15 +63,12 @@ const Navbar = (props: Props) => {
             <div className="p-2 bg-gray-100 rounded-full">
               <CiShoppingCart size={20} />
             </div>
-            
           </Link>
           <span
             className="p-[9px] bg-gray-100 rounded-full md:hidden"
             onClick={() => setShowNav(!showNav)}
           >
-
- {/* Mobile responsive and iPads */}
-
+            {/* Mobile responsive and iPads */}
 
             <BsChevronCompactUp
               className={`transition ease-in duration-150 ${
@@ -110,9 +107,9 @@ const Navbar = (props: Props) => {
             placeholder="Search"
             autoComplete="false"
           />
-           <button>
-          <BiSearch size={20} className="opacity-50" />
-        </button>
+          <button>
+            <BiSearch size={20} className="opacity-50" />
+          </button>
         </div>
       </div>
     </div>
