@@ -47,6 +47,7 @@ const Navbar = (props: Props) => {
             className="relative cursor-pointer"
           >
             <img
+            // adding a photo manually
               src="https://lh3.googleusercontent.com/-CYQRHQCbHdA/AAAAAAAAAAI/AAAAAAAAAAA/AML38-vMMT_uWejxplmPOAUsaUC8_iQR4g/photo.jpg?sz=46"
               alt="userImage"
               className="w-[35px] h-[35px] rounded-full object-cover"
