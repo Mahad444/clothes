@@ -18,7 +18,7 @@ const Navbar = (props: Props) => {
         <div className="flex items-center md:space-x-10 lg:space-x-20">
           {/* logo name  */}
           <div className="font-semibold text-2xl">
-            <a href="/">Modestified</a>
+            <a href="/">Modestified Clothing</a>
           </div>
           <nav className="max-md:hidden">
             <ul className=" flex items-center lg:space-x-10 space-x-7 opacity-70 text-[15px]">
@@ -47,7 +47,7 @@ const Navbar = (props: Props) => {
             className="relative cursor-pointer"
           >
             <img
-            // adding a photo manually
+              // adding a photo manually
               src="https://lh3.googleusercontent.com/-CYQRHQCbHdA/AAAAAAAAAAI/AAAAAAAAAAA/AML38-vMMT_uWejxplmPOAUsaUC8_iQR4g/photo.jpg?sz=46"
               alt="userImage"
               className="w-[35px] h-[35px] rounded-full object-cover"
