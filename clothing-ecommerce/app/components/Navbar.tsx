@@ -18,7 +18,7 @@ const Navbar = (props: Props) => {
         <div className="flex items-center md:space-x-10 lg:space-x-20">
           {/* logo name  */}
           <div className="font-semibold text-2xl">
-            <a href="/">Modestified</a>
+            <a href="/">Modestified ClothLine</a>
           </div>
           <nav className="max-md:hidden">
             <ul className=" flex items-center lg:space-x-10 space-x-7 opacity-70 text-[15px]">
